@@ -1,0 +1,59 @@
+.nav {
+    display: flex;
+    align-items: flex-end;
+    color: #263734;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    justify-content: space-between;
+    .right {
+        max-width: 584px;
+        margin-top: 41px;
+        flex: 1;
+    }
+}
+
+.left {
+    display: flex;
+    justify-content: space-between;
+    max-width: 584px;
+    flex: 1;
+    margin-top: 41px;
+    padding: 0px 40px;
+}
+
+.logo {
+    width: 100%;
+}
+
+.hamburger {
+    display: none;
+}
+
+.btn {
+    background: none;
+    cursor: pointer;
+}
+
+.container {
+    max-width: 1232px;
+    padding: 0px 32px;
+    margin: 0 auto;
+}
+
+.parent {
+    background: #FDD65B;
+    padding-bottom: 34px;
+}
+
+@media (max-width: 1169px) {
+    .left {
+        display: none;
+    }
+    .hamburger {
+        display: flex;
+        justify-content: flex-end;
+    }
+}

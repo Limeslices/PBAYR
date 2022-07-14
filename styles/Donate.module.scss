@@ -1,0 +1,61 @@
+.flex {
+    display: flex;
+    min-height: calc(100vh - 130px);
+    align-items: center;
+    gap: 20px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.big {
+    font-family: 'Domine';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 73px;
+    color: #263734;
+    margin-top: 34px;
+    max-width: 486px;
+}
+
+.stripe {
+    max-width: 500px;
+    width: 100%;
+    background: #00715D;
+    padding: 20px;
+    position: relative;
+}
+
+.stripeFirst {
+    max-width: 500px;
+    width: 100%;
+    background: #0B6051;
+    padding: 20px;
+    color: #93C2BA;
+}
+
+.btn {
+    width: 100%;
+    height: 44px;
+    background: #FDD65B;
+    margin-top: 20px;
+}
+
+.amt {
+    color: white;
+    margin-bottom: 12px;
+}
+
+.don {
+    color: white;
+    margin-bottom: 12px;
+}
+
+.fform:before {
+    content: '$';
+    color: #93C2BA;
+    position: absolute;
+    top: 86px;
+    left: 30px;
+    z-index: 1;
+}

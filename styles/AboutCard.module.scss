@@ -1,0 +1,120 @@
+.card {
+    display: flex;
+    align-items: flex-end;
+}
+
+.imgCover {
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.img {
+    border-radius: 209px 209px 0px 0px;
+    overflow: hidden;
+    width: max-content;
+    position: relative;
+    margin-bottom: -4px;
+}
+
+.link {
+    text-decoration: underline;
+    color: #263734;
+}
+
+.trailingBold {
+    font-family: 'Domine';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    color: #263734;
+}
+
+.content {
+    background-color: white;
+    width: calc(100% + 210px);
+    height: max-content;
+    min-height: 309px;
+    flex: 1;
+    margin-left: -210px;
+    padding: 53px 0px;
+}
+
+.content__inner {
+    margin-left: calc(210px + 44px);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100%;
+    width: calc(100% - 310px);
+    gap: 27px
+}
+
+.leading {
+    font-family: 'Domine';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 55px;
+    color: #263734;
+}
+
+.trailing {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #8C958F;
+}
+
+@media (max-width: 867px) {
+    .card {
+        display: block;
+    }
+    .content {
+        margin: 0 auto;
+        width: 100%;
+        max-width: 416px;
+    }
+    .content__inner {
+        margin-left: 0;
+        padding: 0px 32px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        height: 100%;
+        width: 100%;
+    }
+    .trailing {
+        font-size: 16px;
+    }
+    .leading {
+        font-size: 40px;
+    }
+    .img {
+        margin: 0 auto;
+        margin-bottom: -4px;
+    }
+    .card {
+        margin-top: 88px;
+    }
+}
+
+@media (max-width: 488px) {
+    .content {
+        max-width: 100%;
+    }
+    .imgCover {
+        object-fit: cover;
+        overflow: hidden;
+    }
+    .img {
+        border-radius: 209px 209px 0px 0px;
+        overflow: hidden;
+        width: auto;
+        position: relative;
+    }
+}

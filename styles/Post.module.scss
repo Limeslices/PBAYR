@@ -1,0 +1,65 @@
+.big {
+    font-family: 'Domine';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 73px;
+    color: #263734;
+    margin-top: 34px;
+}
+
+.date {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #879290;
+}
+
+.img {
+    margin-top: 24px;
+    margin-bottom: 24px;
+    display: flex;
+    justify-content: center;
+}
+
+.h {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: #263734;
+}
+
+.p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #263734;
+}
+
+.flex {
+    display: flex;
+    justify-content: flex-strart;
+    flex-wrap: wrap-reverse;
+    gap: 75px;
+}
+
+.socialIcons {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.text__container {
+    max-width: 640px;
+}
+
+.link {
+    text-decoration: underline;
+    color: #00715D;
+}

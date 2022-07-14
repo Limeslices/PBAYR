@@ -1,0 +1,45 @@
+.content {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 88px;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.design {
+    font-family: 'Domine';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+    display: block;
+    margin-top: 60px;
+}
+
+.main {
+    max-width: 111px;
+}
+
+.leading {
+    font-family: 'Domine';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #263734;
+    margin-bottom: 60px;
+}
+
+.trailing {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #263734;
+}
+
+.margin {
+    margin-bottom: 88px;
+}

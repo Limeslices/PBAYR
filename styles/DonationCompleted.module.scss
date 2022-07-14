@@ -1,0 +1,29 @@
+.flex {
+    height: calc(100vh - 130px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.big {
+    font-family: 'Domine';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 73px;
+    color: #263734;
+    margin-top: 34px;
+    text-align: center;
+}
+
+.small {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #263734;
+    margin-top: 34px;
+    text-align: center;
+}

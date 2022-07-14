@@ -1,0 +1,15 @@
+{
+  "/_app": "pages/_app.js",
+  "/_error": "pages/_error.js",
+  "/api/create-payment-intent": "pages/api/create-payment-intent.js",
+  "/donate-card": "pages/donate-card.html",
+  "/donate": "pages/donate.html",
+  "/donation-completed": "pages/donation-completed.html",
+  "/": "pages/index.js",
+  "/our-work/[slug]": "pages/our-work/[slug].js",
+  "/upcoming/[slug]": "pages/upcoming/[slug].js",
+  "/founder": "pages/founder.js",
+  "/about": "pages/about.js",
+  "/_document": "pages/_document.js",
+  "/404": "pages/404.html"
+}

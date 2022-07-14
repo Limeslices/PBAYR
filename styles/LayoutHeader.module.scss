@@ -1,0 +1,15 @@
+.content {
+    background-image: none;
+}
+
+.container {
+    max-width: 1232px;
+    padding: 0px 32px;
+    margin: 0 auto;
+}
+
+@media (min-width: 1017px) {
+    .content {
+        background-image: linear-gradient(to left, #FDD65B, #FDD65B 50%, #F9F5E8 50%, #F9F5E8);
+    }
+}

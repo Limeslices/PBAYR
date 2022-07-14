@@ -1,0 +1,56 @@
+.wrapper {
+    background-color: #00715D;
+    min-height: 278px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-image: url(/static/bbg.svg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.big {
+    font-family: 'Domine';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 73px;
+    color: #FFFFFF;
+    max-width: 576px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.btn {
+    background: #FDD65B;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: #000000;
+    max-width: 321px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 72px;
+    height: 72px;
+}
+
+@media(max-width: 1007px) {
+    .big {
+        display: none;
+    }
+}

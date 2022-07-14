@@ -1,0 +1,40 @@
+.nav {
+    position: fixed;
+    top: 0;
+    background-color: #FDD65B;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.nav__link {
+    color: #263734;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    display: block;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    gap: 30px;
+}
+
+.closeButton {
+    width: 35px;
+    height: 35px;
+    position: relative;
+    background: none;
+    cursor: pointer;
+    margin-top: 35px;
+    margin-right: 32px;
+}
