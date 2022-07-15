@@ -154,7 +154,8 @@ export const getStaticProps = async context => {
   return {
     props: {
       post
-    }
+    },
+
   }
 }
 
